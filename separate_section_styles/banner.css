@@ -1,0 +1,149 @@
+/* Banner Section Styles */
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 10% 5% 0;
+  box-sizing: border-box;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.banner-image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.content-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 55%;
+}
+.content-banner h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 2.5rem;
+}
+.content-banner h4 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #201f1f;
+  margin: 0;
+}
+.get-started-btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #121211;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.get-started-btn:hover {
+  background-color: rgb(253, 122, 106);
+  transform: scale(1.05);
+  color: #121211;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  #banner {
+    padding: 5% 5%;
+  }
+
+  .content-banner {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .content-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .content-banner h4 {
+    font-size: 1rem;
+  }
+}
+/* Mobile Screens */
+@media (max-width: 768px) {
+  #banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner-image {
+    width: 100%;
+    max-width: 400px; 
+    order: -1; 
+    margin-bottom: 2rem;
+  }
+
+  .content-banner {
+    width: 85%;
+    align-items: center;
+  }
+
+  .content-banner h1 {
+    font-size: 1.6rem;
+  }
+
+  .content-banner h4 {
+    font-size: 0.9rem;
+  }
+
+  .get-started-btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+/* Smaller Screens */
+@media (max-width: 576px) {
+  .content-banner h1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .content-banner h4 {
+    font-size: 0.8rem;
+  }
+
+  .banner-image {
+    width: 70%;
+  }
+
+  .get-started-btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}

@@ -1,0 +1,109 @@
+/* Our Mission Section Styles */
+#mission {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  z-index: 1;
+}
+
+.mission-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  color: #000;
+}
+
+.mission-ribbon {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 10%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+}
+
+.mission-ribbon p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin: 0;
+  z-index: 1;
+}
+.mission-triangle {
+  position: absolute;
+  top: -150px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 300px 600px;
+  border-color: transparent transparent #000 transparent;
+  z-index: -1;
+}
+
+/* Responsive Adjustments */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .mission-title {
+    font-size: 2rem;
+  }
+
+  .mission-ribbon {
+    padding: 2rem 8%;
+  }
+
+  .mission-ribbon p {
+    font-size: 1.1rem;
+  }
+
+  .mission-triangle {
+    top: -50px;
+    border-width: 0 0 120px 250px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .mission-title {
+    font-size: 1.6rem;
+  }
+
+  .mission-ribbon {
+    padding: 1.5rem 5%;
+  }
+
+  .mission-ribbon p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .mission-triangle {
+    top: -40px;
+    border-width: 0 0 150px 260px;
+  }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+  .mission-title {
+    font-size: 1.2rem;
+  }
+
+  .mission-ribbon {
+    padding: 1.2rem 4%;
+  }
+
+  .mission-ribbon p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .mission-triangle {
+    top: -30px;
+    border-width: 0 0 100px 180px;
+  }
+}

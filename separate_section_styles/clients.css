@@ -1,0 +1,85 @@
+/* Clients Section Styles */
+#clients {
+  text-align: center;
+  padding: 1rem 2rem 4rem 2rem;
+  background-color: #ffffff;
+}
+
+.clients-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.clients-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.client-logo {
+  max-width: 8rem;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+
+/* Tablets and medium screens */
+@media (max-width: 992px) {
+  .clients-title {
+    font-size: 2rem;
+  }
+
+  .clients-container {
+    gap: 3rem;
+  }
+
+  .client-logo {
+    max-width: 6rem;
+  }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 768px) {
+  .clients-title {
+    font-size: 1.8rem;
+  }
+
+  .clients-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .client-logo {
+    max-width: 5rem;
+  }
+}
+
+/* Very small screens (mobile devices under 480px) */
+@media (max-width: 480px) {
+  .clients-title {
+    font-size: 1.5rem;
+  }
+
+  .clients-container {
+    gap: 1.5rem;
+  }
+
+  .client-logo {
+    max-width: 4rem;
+  }
+}

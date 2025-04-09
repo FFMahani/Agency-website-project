@@ -1,0 +1,360 @@
+/* Footer Section Styles*/
+#footer {
+  position: relative;
+  background-color: white;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+/* Footer Content */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10%;
+  position: relative;
+  z-index: 2;
+}
+
+/* Footer Left Section */
+.footer-left h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.footer-left .address {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Footer Center Section (Social Icons) */
+.footer-center .social-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.footer-center .social-icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+/* Footer Right */
+.footer-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  margin: 3rem;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.chatbox {
+  width: 3.125rem;
+  height: 3.125rem;
+  object-fit: contain;
+}
+
+/* Footer Yellow Triangle */
+.footer-triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50vh 0 0 50vw;
+  border-color: transparent transparent transparent rgb(254, 247, 133);
+  z-index: 1;
+}
+
+/* Footer Black Ribbon */
+.footer-black-ribbon {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+.footer-left strong {
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+.footer-black-ribbon p {
+  font-size: 1rem;
+  margin: 0;
+  z-index: 2;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 28rem;
+  color: #fff;
+}
+
+/* Website Address Styling */
+.footer-black-ribbon p a {
+  color: #fdfdfd;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+/* Large Screens (Desktops) */
+@media (min-width: 1200px) {
+  .footer-container {
+    flex-direction: row;
+    padding: 3rem 10%;
+  }
+
+  .footer-left h3 {
+    font-size: 1.8rem;
+  }
+
+  .footer-left .address {
+    font-size: 1.2rem;
+  }
+
+  .social-icons img {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .footer-right .logo {
+    font-size: 2.5rem;
+  }
+
+  .footer-black-ribbon {
+    padding: 1.5rem;
+  }
+
+  .footer-black-ribbon p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-triangle {
+    display: none;
+  }
+}
+
+/* Medium-Large Screens (Laptops & Larger Tablets - 1024px) */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2.8rem 7%;
+    gap: 2rem;
+  }
+
+  .footer-left h3 {
+    font-size: 1.6rem;
+  }
+
+  .footer-left .address {
+    font-size: 1.1rem;
+  }
+
+  .social-icons img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-right .logo {
+    font-size: 2rem;
+  }
+
+  .chatbox {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .footer-black-ribbon {
+    padding: 1.2rem;
+  }
+
+  .footer-black-ribbon p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-triangle {
+    z-index: 0;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5rem 5%;
+    gap: 2rem;
+  }
+
+  .footer-left h3 {
+    font-size: 1.6rem;
+  }
+
+  .footer-left .address {
+    font-size: 1.1rem;
+  }
+
+  .social-icons img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-right .logo {
+    font-size: 2rem;
+  }
+
+  .chatbox {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .footer-black-ribbon {
+    padding: 1.2rem;
+  }
+
+  .footer-black-ribbon p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-triangle {
+    z-index: 0;
+  }
+}
+
+/* Small Screens (Mobile Devices) */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 3%;
+    gap: 1.5rem;
+  }
+
+  .footer-left h3 {
+    font-size: 1.4rem;
+  }
+
+  .footer-left .address {
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    gap: 1rem;
+  }
+
+  .social-icons img {
+    width: 2.18rem;
+    height: 2.18rem;
+  }
+
+  .footer-right .logo {
+    font-size: 1.8rem;
+  }
+
+  .chatbox {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-black-ribbon {
+    padding: 1rem;
+  }
+
+  .footer-black-ribbon p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer-triangle {
+    z-index: 0;
+  }
+}
+
+/* Extra Small Screens (Very Small Devices) */
+@media (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5%;
+    gap: 1.2rem;
+    text-align: center;
+  }
+
+  .footer-left h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-left .address {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .social-icons img {
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .chatbox {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .footer-black-ribbon {
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .footer-black-ribbon p {
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer-triangle {
+    z-index: 0;
+  }
+}

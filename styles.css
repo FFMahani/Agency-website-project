@@ -1,0 +1,30 @@
+/* Import section styles */
+@import url('./separate_section_styles/header.css');
+@import url('./separate_section_styles/banner.css');
+@import url('./separate_section_styles/about.css');
+@import url('./separate_section_styles/services.css');
+@import url('./separate_section_styles/works.css');
+@import url('./separate_section_styles/mission.css');
+@import url('./separate_section_styles/testimonials.css');
+@import url('./separate_section_styles/clients.css');
+@import url('./separate_section_styles/footer.css');
+
+/* General Body Styling */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(./images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip; 
+}
