@@ -9,6 +9,10 @@
 @import url('./separate_section_styles/clients.css');
 @import url('./separate_section_styles/footer.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* General Body Styling */
 body {
   font-family: "Josefin Sans", sans-serif;
