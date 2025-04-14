@@ -67,20 +67,24 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Dot navigation (click)
+// Dot navigation
 dots.forEach((dot, i) => {
   dot.addEventListener("click", () => {
     goToSlide(i);
     resetAutoSlide();
   });
 
-  // Pause auto-slide when hovering over a dot
   dot.addEventListener("mouseenter", () => clearInterval(autoSlideInterval));
   dot.addEventListener("mouseleave", startAutoSlide);
 });
 
-// Pause auto-slide on hover for container and arrows
-[testimonialContainer, leftArrow, rightArrow].forEach(element => {
+// Pause auto-slide on hover
+[
+  ...slides,
+  testimonialContainer,
+  leftArrow,
+  rightArrow,
+].forEach((element) => {
   element.addEventListener("mouseenter", () => clearInterval(autoSlideInterval));
   element.addEventListener("mouseleave", startAutoSlide);
 });
@@ -88,5 +92,3 @@ dots.forEach((dot, i) => {
 // Init
 goToSlide(0);
 startAutoSlide();
-
-
