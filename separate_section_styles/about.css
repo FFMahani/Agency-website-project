@@ -5,6 +5,7 @@
   align-items: center;
   padding: 10rem 10%;
   box-sizing: border-box;
+  margin-top: 10%; 
 }
 .about-container {
   display: flex;
