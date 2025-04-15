@@ -1,60 +1,73 @@
-# Agency Landing Page
+# 🌐 Agency Landing Page
 
-This is a fully responsive landing page built using **HTML**, **CSS**, and **JavaScript**, developed as part of a frontend implementation exercise. **The goal was to recreate a given static layout image from scratch** while following modern frontend best practices.
+This is a fully responsive landing page built using **HTML**, **CSS**, and **JavaScript**, developed as part of a frontend implementation exercise.  
+**The goal was to recreate a given static layout image from scratch**, implementing modern best practices in responsive design and UI/UX development.
 
 ---
 
-## About the Project
+## 🎨 Original Design Reference
 
-This project emulates a professional **agency-style landing page**, featuring multiple key sections commonly found in real-world websites:
+Below is the original static layout used as the reference for this project. The final result closely follows this design to demonstrate pixel-perfect implementation:
 
-- **Responsive Navigation Bar** with burger menu for tablets and mobile
+![Design Layout](./images/layout-sketch.webp) <!-- Make sure to place your design image here -->
+
+---
+
+## 📌 About the Project
+
+This project emulates a professional **agency-style landing page**, featuring structured, responsive, and interactive UI components:
+
+- **Responsive Navigation Bar** with a burger menu for tablets and mobile
 - **Hero Section** with a compelling call-to-action
 - **Structured Sections**: About, Services, Works, Testimonials, and Clients
-- **Testimonial Carousel** with auto-slide, arrows, and dot navigation
-- **Clean Footer** with company info and external links
+- **Testimonial Carousel** with auto-slide, arrow controls, and dot navigation
+- **Clean Footer** with company information and clickable external links
 
 ---
 
 ## ✅ Features
 
 - **Responsive layout** across mobile, tablet, and desktop screens  
-- **Interactive burger menu** with smooth open/close behavior  
+- **Interactive burger menu** with smooth open/close transitions  
 - **Auto-sliding testimonial carousel** with manual controls and pause-on-hover  
-- **Smooth scrolling** for internal anchor navigation  
-- **Clean file structure** with separation of concerns (HTML / CSS / JS)  
+- **Smooth scrolling** for internal anchor links  
+- **Clean modular file structure** with clear separation of concerns (HTML / CSS / JS)  
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **HTML5** — Semantic markup and accessibility
-- **CSS3** — Responsive design with media queries
+- **CSS3** — Responsive styling with refined media queries
 - **Vanilla JavaScript** — DOM manipulation, animations, and interactivity
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
-📁 images/
-📁 scripts/
-   ├── menu.js                # Burger menu toggle
-   ├── scrollBehavior.js      # Smooth scroll on Get Started
-   └── testimonial_carousel.js # Carousel logic
-📁 separate_section_styles/
-   ├── header.css
-   ├── banner.css
-   ├── about.css
-   ├── services.css
-   ├── works.css
-   ├── mission.css
-   ├── testimonials.css
-   ├── clients.css
-   └── footer.css
-📄 index.html
-📄 styles.css
-📄 README.md
-📄 LICENSE
+```
+images/
+scripts/
+├── menu.js                # Burger menu toggle
+├── scrollBehavior.js      # Smooth scroll on Get Started
+└── testimonial_carousel.js # Carousel logic
+separate_section_styles/
+├── header.css
+├── banner.css
+├── about.css
+├── services.css
+├── works.css
+├── mission.css
+├── testimonials.css
+├── clients.css
+└── footer.css
+index.html
+styles.css
+README.md
+LICENSE
+```
+
+---
 
 ## ▶️ How to Use
 
@@ -62,9 +75,15 @@ This project emulates a professional **agency-style landing page**, featuring mu
 
    ```bash
    git clone https://github.com/FFMahani/Agency-website-project.git
+   ```
 
+2. **Open `index.html` in your browser** to preview the landing page.
 
-## Author
-**Fatemeh Fouladi Mahani**
+The code is clean and modular — feel free to extend or adapt it to your own projects.
 
-Junior Frontend Developer passionate about clean design and creative user experiences.
+---
+
+## 👩‍💻 Author
+
+**Fatemeh Fouladi Mahani**  
+🎨 *Junior Frontend Developer passionate about clean design and creative user experiences.*
