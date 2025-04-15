@@ -9,8 +9,7 @@ This is a fully responsive landing page built using **HTML**, **CSS**, and **Jav
 
 Below is the original static layout used as the reference for this project. The final result closely follows this design to demonstrate pixel-perfect implementation:
 
-![Design Layout](./images/layout-sketch.webp) <!-- Make sure to place your design image here -->
-
+![Design Layout](./images/layout-sketch.webp) 
 ---
 
 ## 📌 About the Project
@@ -80,6 +79,12 @@ LICENSE
 2. **Open `index.html` in your browser** to preview the landing page.
 
 The code is clean and modular — feel free to extend or adapt it to your own projects.
+
+---
+
+## 🔗 Live Preview
+
+🌐 [View Live Site](https://ffmahani.github.io/Agency-website-project/)
 
 ---
 
