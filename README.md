@@ -12,7 +12,7 @@ This is a fully responsive landing page built using **HTML**, **CSS**, and **Jav
 
 ## 🎨 Original Design Reference
 
-🖼️ Below is the original layout used as the reference:  
+🖼️ Below is the original static layout used as the reference for this project:  
 
 ![Design Layout](./images/layout-sketch.webp) 
 
