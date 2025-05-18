@@ -4,6 +4,11 @@ This is a fully responsive landing page built using **HTML**, **CSS**, and **Jav
 **The goal was to recreate a given static layout image from scratch**, implementing modern best practices in responsive design and UI/UX development.
 
 ---
+## 🔗 Live Preview
+
+🌐 [View Live Site](https://ffmahani.github.io/Agency-website-project/)
+
+---
 
 ## 🎨 Original Design Reference
 
@@ -79,12 +84,6 @@ LICENSE
 2. **Open `index.html` in your browser** to preview the landing page.
 
 The code is clean and modular — feel free to extend or adapt it to your own projects.
-
----
-
-## 🔗 Live Preview
-
-🌐 [View Live Site](https://ffmahani.github.io/Agency-website-project/)
 
 ---
 
