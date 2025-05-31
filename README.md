@@ -6,7 +6,7 @@ This is a fully responsive landing page built using **HTML**, **CSS**, and **Jav
 ---
 ## 🔗 Live Preview
 
-🌐 [View Live Site](https://ffmahani.github.io/Agency-website-project/)
+🌐 [View Live Site](https://ffmahani.github.io/agency-website-project/)
 
 ---
 
@@ -16,7 +16,7 @@ This is a fully responsive landing page built using **HTML**, **CSS**, and **Jav
 
 ![Design Layout](./images/layout-sketch.webp) 
 
-The final result (as seen in the [Live Demo](https://ffmahani.github.io/Agency-website-project/)) closely mirrors the design — showcasing precision in spacing, typography, section structure, and responsiveness.
+The final result (as seen in the [Live Demo](https://ffmahani.github.io/agency-website-project/)) closely mirrors the design — showcasing precision in spacing, typography, section structure, and responsiveness.
 
 ---
 
@@ -81,7 +81,7 @@ LICENSE
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/FFMahani/Agency-website-project.git
+   git clone https://github.com/FFMahani/agency-website-project.git
    ```
 
 2. **Open `index.html` in your browser** to preview the landing page.
